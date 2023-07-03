@@ -62,5 +62,7 @@ class IosDevices {
         iPadAir4,
         iPad,
         iPadPro11Inches,
+    iPad12InchesGen4,
+    iPad12InchesGen2
       ];
 }

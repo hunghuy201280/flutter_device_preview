@@ -283,7 +283,7 @@ class _FramePainter extends CustomPainter {
     path_15.close();
 
     Paint paint_15_fill = Paint()..style=PaintingStyle.fill;
-    paint_15_fill.color = Color(0xffFF0000).withOpacity(1.0);
+    paint_15_fill.color = Color(0xff000000).withOpacity(1.0);
     canvas.drawPath(path_15,paint_15_fill);
 
   }
@@ -293,3 +293,6 @@ class _FramePainter extends CustomPainter {
     return false;
   }
 }
+
+
+

@@ -2,6 +2,7 @@ import 'package:device_frame/src/info/device_type.dart';
 import 'package:device_frame/src/info/identifier.dart';
 import 'package:device_frame/src/info/info.dart';
 import 'package:flutter/material.dart';
+import "package:flutter/foundation.dart";
 
 part 'frame.g.dart';
 part 'screen.g.dart';

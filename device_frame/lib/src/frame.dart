@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 
 import 'info/device_type.dart';
 import 'info/info.dart';
+import "package:flutter/foundation.dart";
 
 /// Simulate a physical device and embedding a virtual
 /// [screen] into it.
@@ -129,7 +130,10 @@ class DeviceFrame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final frameSize = device.frameSize;
-    final bounds = device.screenPath.getBounds();
+    var bounds = device.screenPath.getBounds();
+
+    //45.404300689697266
+    //39.19580078125
     final stack = SizedBox(
       width: isFrameVisible ? frameSize.width : bounds.width,
       height: isFrameVisible ? frameSize.height : bounds.height,
